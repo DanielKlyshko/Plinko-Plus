@@ -12,3 +12,13 @@ Dive into the exciting world of Plinko—a classic game where luck and strategy 
 1. Launch the ball from the top of the board.
 2. Watch it bounce off pegs.
 3. Score points by landing in different sectors.
+
+## Technologies Used
+- **Architecture:** MVVM (Model-View-ViewModel) for clean and maintainable code.
+- **Frameworks:**
+  - **SwiftUI:** For building responsive and modern user interfaces.
+  - **Combine:** For handling asynchronous events and data flows.
+- **Game Engines:** (if applicable)
+  - **SpriteKit:** For 2D graphics and animations.
+  - **Unity:** For cross-platform game development (if used).
+- **Version Control:** Git for source code management.
