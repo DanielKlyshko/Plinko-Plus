@@ -20,5 +20,4 @@ Dive into the exciting world of Plinko—a classic game where luck and strategy 
   - **Combine:** For handling asynchronous events and data flows.
 - **Game Engines:** (if applicable)
   - **SpriteKit:** For 2D graphics and animations.
-  - **Unity:** For cross-platform game development (if used).
 - **Version Control:** Git for source code management.
