@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C066C672CBF460700B6AF84 /* LeaderboardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066C662CBF460700B6AF84 /* LeaderboardScreenView.swift */; };
+		1C066C692CBF461700B6AF84 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066C682CBF461700B6AF84 /* SettingsScreenView.swift */; };
+		1C066C6B2CBF46BA00B6AF84 /* RulesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066C6A2CBF46BA00B6AF84 /* RulesScreenView.swift */; };
+		1C066C6D2CBF48CC00B6AF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C066C6C2CBF48CC00B6AF84 /* LaunchScreen.storyboard */; };
+		1C9A77172CBEE61D0098ECCC /* PlinkoPlusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A77162CBEE61D0098ECCC /* PlinkoPlusAppApp.swift */; };
+		1C9A77192CBEE61D0098ECCC /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A77182CBEE61D0098ECCC /* StartScreenView.swift */; };
+		1C9A771B2CBEE61F0098ECCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A771A2CBEE61F0098ECCC /* Assets.xcassets */; };
+		1C9A771E2CBEE61F0098ECCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A771D2CBEE61F0098ECCC /* Preview Assets.xcassets */; };
+		1CFA71C62CC0606100254D19 /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA71C52CC0606100254D19 /* Fredoka-Bold.ttf */; };
+		1CFA71C82CC0884500254D19 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA71C72CC0884400254D19 /* Roboto-Bold.ttf */; };
+		1CFA71CA2CC0AAEB00254D19 /* LeadersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA71C92CC0AAEB00254D19 /* LeadersModel.swift */; };
+		1CFA71CC2CC0AB4000254D19 /* LeaderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA71CB2CC0AB4000254D19 /* LeaderRowView.swift */; };
+		1CFD5A692CC271CB00F6817C /* GameScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A682CC271CB00F6817C /* GameScreenView.swift */; };
+		1CFD5A722CC2789000F6817C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A712CC2789000F6817C /* GameScene.swift */; };
+		1CFD5A762CC3468B00F6817C /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A752CC3468B00F6817C /* SoundManager.swift */; };
+		1CFD5A7A2CC3495D00F6817C /* winSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD5A772CC3495D00F6817C /* winSound.wav */; };
+		1CFD5A7B2CC3495D00F6817C /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD5A782CC3495D00F6817C /* backgroundMusic.wav */; };
+		1CFD5A7C2CC3495D00F6817C /* pinKickedSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD5A792CC3495D00F6817C /* pinKickedSound.wav */; };
+		1CFD5A802CC36A5B00F6817C /* clickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD5A7F2CC36A5B00F6817C /* clickSound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C066C662CBF460700B6AF84 /* LeaderboardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardScreenView.swift; sourceTree = "<group>"; };
+		1C066C682CBF461700B6AF84 /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		1C066C6A2CBF46BA00B6AF84 /* RulesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesScreenView.swift; sourceTree = "<group>"; };
+		1C066C6C2CBF48CC00B6AF84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C9A77132CBEE61D0098ECCC /* PlinkoPlusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlinkoPlusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9A77162CBEE61D0098ECCC /* PlinkoPlusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlinkoPlusAppApp.swift; sourceTree = "<group>"; };
+		1C9A77182CBEE61D0098ECCC /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		1C9A771A2CBEE61F0098ECCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C9A771D2CBEE61F0098ECCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CFA71BE2CC05D9400254D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFA71C52CC0606100254D19 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fredoka-Bold.ttf"; path = "../../../../../../.Trash/Fredoka-Bold.ttf"; sourceTree = "<group>"; };
+		1CFA71C72CC0884400254D19 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "RobotoFont/Roboto-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		1CFA71C92CC0AAEB00254D19 /* LeadersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersModel.swift; sourceTree = "<group>"; };
+		1CFA71CB2CC0AB4000254D19 /* LeaderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderRowView.swift; sourceTree = "<group>"; };
+		1CFD5A682CC271CB00F6817C /* GameScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenView.swift; sourceTree = "<group>"; };
+		1CFD5A712CC2789000F6817C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1CFD5A752CC3468B00F6817C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		1CFD5A772CC3495D00F6817C /* winSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = winSound.wav; path = PlinkoPlusApp/winSound.wav; sourceTree = SOURCE_ROOT; };
+		1CFD5A782CC3495D00F6817C /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = PlinkoPlusApp/backgroundMusic.wav; sourceTree = SOURCE_ROOT; };
+		1CFD5A792CC3495D00F6817C /* pinKickedSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pinKickedSound.wav; path = PlinkoPlusApp/pinKickedSound.wav; sourceTree = SOURCE_ROOT; };
+		1CFD5A7F2CC36A5B00F6817C /* clickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clickSound.wav; path = PlinkoPlusApp/clickSound.wav; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9A77102CBEE61D0098ECCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C9A770A2CBEE61D0098ECCC = {
+			isa = PBXGroup;
+			children = (
+				1C9A77152CBEE61D0098ECCC /* PlinkoPlusApp */,
+				1C9A77142CBEE61D0098ECCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C9A77142CBEE61D0098ECCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A77132CBEE61D0098ECCC /* PlinkoPlusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C9A77152CBEE61D0098ECCC /* PlinkoPlusApp */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A77162CBEE61D0098ECCC /* PlinkoPlusAppApp.swift */,
+				1CFD5A6B2CC2720A00F6817C /* Start Screen */,
+				1CFD5A702CC2760E00F6817C /* Game Screen */,
+				1CFD5A6D2CC2757E00F6817C /* Leaderboard Screen */,
+				1CFD5A6C2CC2752D00F6817C /* Settings Screen */,
+				1CFD5A6E2CC275C300F6817C /* Rules Screen */,
+				1C066C6C2CBF48CC00B6AF84 /* LaunchScreen.storyboard */,
+				1C9A771A2CBEE61F0098ECCC /* Assets.xcassets */,
+				1CFA71BE2CC05D9400254D19 /* Info.plist */,
+				1CFD5A752CC3468B00F6817C /* SoundManager.swift */,
+				1CFD5A782CC3495D00F6817C /* backgroundMusic.wav */,
+				1CFD5A7F2CC36A5B00F6817C /* clickSound.wav */,
+				1CFD5A792CC3495D00F6817C /* pinKickedSound.wav */,
+				1CFD5A772CC3495D00F6817C /* winSound.wav */,
+				1CFA71B92CC05CA100254D19 /* Fonts */,
+				1C9A771C2CBEE61F0098ECCC /* Preview Content */,
+			);
+			path = PlinkoPlusApp;
+			sourceTree = "<group>";
+		};
+		1C9A771C2CBEE61F0098ECCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A771D2CBEE61F0098ECCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CFA71B92CC05CA100254D19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA71C72CC0884400254D19 /* Roboto-Bold.ttf */,
+				1CFA71C52CC0606100254D19 /* Fredoka-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1CFD5A6B2CC2720A00F6817C /* Start Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A77182CBEE61D0098ECCC /* StartScreenView.swift */,
+			);
+			path = "Start Screen";
+			sourceTree = "<group>";
+		};
+		1CFD5A6C2CC2752D00F6817C /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1C066C682CBF461700B6AF84 /* SettingsScreenView.swift */,
+			);
+			path = "Settings Screen";
+			sourceTree = "<group>";
+		};
+		1CFD5A6D2CC2757E00F6817C /* Leaderboard Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1C066C662CBF460700B6AF84 /* LeaderboardScreenView.swift */,
+				1CFA71CB2CC0AB4000254D19 /* LeaderRowView.swift */,
+				1CFA71C92CC0AAEB00254D19 /* LeadersModel.swift */,
+			);
+			path = "Leaderboard Screen";
+			sourceTree = "<group>";
+		};
+		1CFD5A6E2CC275C300F6817C /* Rules Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1C066C6A2CBF46BA00B6AF84 /* RulesScreenView.swift */,
+			);
+			path = "Rules Screen";
+			sourceTree = "<group>";
+		};
+		1CFD5A702CC2760E00F6817C /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD5A682CC271CB00F6817C /* GameScreenView.swift */,
+				1CFD5A712CC2789000F6817C /* GameScene.swift */,
+			);
+			path = "Game Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C9A77122CBEE61D0098ECCC /* PlinkoPlusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9A77212CBEE61F0098ECCC /* Build configuration list for PBXNativeTarget "PlinkoPlusApp" */;
+			buildPhases = (
+				1C9A770F2CBEE61D0098ECCC /* Sources */,
+				1C9A77102CBEE61D0098ECCC /* Frameworks */,
+				1C9A77112CBEE61D0098ECCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlinkoPlusApp;
+			productName = PlinkoPlusApp;
+			productReference = 1C9A77132CBEE61D0098ECCC /* PlinkoPlusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C9A770B2CBEE61D0098ECCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1C9A77122CBEE61D0098ECCC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1C9A770E2CBEE61D0098ECCC /* Build configuration list for PBXProject "PlinkoPlusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C9A770A2CBEE61D0098ECCC;
+			productRefGroup = 1C9A77142CBEE61D0098ECCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C9A77122CBEE61D0098ECCC /* PlinkoPlusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C9A77112CBEE61D0098ECCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C066C6D2CBF48CC00B6AF84 /* LaunchScreen.storyboard in Resources */,
+				1CFD5A7C2CC3495D00F6817C /* pinKickedSound.wav in Resources */,
+				1CFD5A7A2CC3495D00F6817C /* winSound.wav in Resources */,
+				1CFA71C82CC0884500254D19 /* Roboto-Bold.ttf in Resources */,
+				1C9A771E2CBEE61F0098ECCC /* Preview Assets.xcassets in Resources */,
+				1CFD5A802CC36A5B00F6817C /* clickSound.wav in Resources */,
+				1CFA71C62CC0606100254D19 /* Fredoka-Bold.ttf in Resources */,
+				1C9A771B2CBEE61F0098ECCC /* Assets.xcassets in Resources */,
+				1CFD5A7B2CC3495D00F6817C /* backgroundMusic.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9A770F2CBEE61D0098ECCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9A77192CBEE61D0098ECCC /* StartScreenView.swift in Sources */,
+				1CFA71CC2CC0AB4000254D19 /* LeaderRowView.swift in Sources */,
+				1C066C6B2CBF46BA00B6AF84 /* RulesScreenView.swift in Sources */,
+				1CFD5A722CC2789000F6817C /* GameScene.swift in Sources */,
+				1CFA71CA2CC0AAEB00254D19 /* LeadersModel.swift in Sources */,
+				1CFD5A692CC271CB00F6817C /* GameScreenView.swift in Sources */,
+				1C9A77172CBEE61D0098ECCC /* PlinkoPlusAppApp.swift in Sources */,
+				1C066C692CBF461700B6AF84 /* SettingsScreenView.swift in Sources */,
+				1C066C672CBF460700B6AF84 /* LeaderboardScreenView.swift in Sources */,
+				1CFD5A762CC3468B00F6817C /* SoundManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C9A771F2CBEE61F0098ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C9A77202CBEE61F0098ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C9A77222CBEE61F0098ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlinkoPlusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4894AA5VL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoPlusApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Plinko Plus";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielKlyshko.PlinkoPlusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C9A77232CBEE61F0098ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlinkoPlusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4894AA5VL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoPlusApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Plinko Plus";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielKlyshko.PlinkoPlusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9A770E2CBEE61D0098ECCC /* Build configuration list for PBXProject "PlinkoPlusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9A771F2CBEE61F0098ECCC /* Debug */,
+				1C9A77202CBEE61F0098ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C9A77212CBEE61F0098ECCC /* Build configuration list for PBXNativeTarget "PlinkoPlusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9A77222CBEE61F0098ECCC /* Debug */,
+				1C9A77232CBEE61F0098ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C9A770B2CBEE61D0098ECCC /* Project object */;
+}
